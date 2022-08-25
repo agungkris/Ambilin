@@ -3,4 +3,21 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+}
+
+.logo{
+  transform: scale(0.7);
+}
+
+.btn{
+  background-color: #FF8333;
+  border-color: #FF8333;
+}
+
+.btn:hover{
+  background-color: #FF8333;
+  border-color: #FF8333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

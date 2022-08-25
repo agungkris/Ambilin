@@ -8,7 +8,7 @@ function Login() {
         className="wrapper"
         style={{ backgroundImage: "url('../bgdashboard.png')" }}
       >
-        <div className="body p-5">
+        <div className="body px-5 py-4">
           <div>
             <Row>
               <Col>
@@ -19,7 +19,7 @@ function Login() {
                 </h5>
               </Col>
               <Col>
-                <img className="float-end" src="../logo.png" alt="logo" />
+                <img className="logo float-end" src="../logo.png" alt="logo" />
               </Col>
             </Row>
           </div>
@@ -54,7 +54,7 @@ function Login() {
                 <Form.Check type="checkbox" label="Check me out" />
               </Form.Group>
               <div className="d-grid">
-                <Button className="btn btn-warning btn-block" type="submit">
+                <Button className="btn btn-block rounded-pill" aria-label="Close" type="submit">
                   Masuk
                 </Button>
               </div>
@@ -62,7 +62,6 @@ function Login() {
           </div>
         </div>
       </div>
-      {/* <img className="wrapper" src="../bgdashboard.png"/> */}
     </div>
   );
 }
