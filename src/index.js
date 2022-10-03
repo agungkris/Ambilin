@@ -3,14 +3,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import Login from '../src/auth/login'
+import Login from '../src/component/auth/login';
+import Daily from '../src/component/daily/daily';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Login />
+    {/* <Login /> */}
+    <Daily />
   </React.StrictMode>
 );
 
