@@ -1,5 +1,7 @@
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col, Tabs, Tab, InputGroup, Button, Form } from "react-bootstrap";
 import "./daily.css";
+import Transaksi from "../daily/transaction";
+import TransaksiDetail from "../daily/transactionDetail";
 
 export default function Daily() {
   return (
@@ -91,6 +93,33 @@ export default function Daily() {
             </Card>
           </Col>
         </Row>
+      </div>
+      <div className="table mt-5">
+        <Card className="table-card">
+          <InputGroup className="mb-3">
+            <Button disabled style={{color:"black"}} id="button-addon1">
+              <img src="../assets/search.png" alt="search"></img>
+            </Button>
+            <Form.Control
+              aria-label="Example text with button addon"
+              aria-describedby="basic-addon1"
+              placeholder="Cari"
+            />
+          </InputGroup>
+
+          <Tabs>
+            <Tab eventKey="transaksi" title="Tab 1">
+              <Transaksi />
+            </Tab>
+            <Tab eventKey="transaksiDetail" title="Tab 2">
+              <TransaksiDetail />
+            </Tab>
+          </Tabs>
+          <p style={{ textAlign: "right" }}>Menampilkan 10 Data</p>
+          <p className="mt-2" style={{ fontSize: "12px" }}>
+            Menampilkan data 1-2 dari 2
+          </p>
+        </Card>
       </div>
     </div>
   );

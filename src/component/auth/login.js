@@ -1,4 +1,4 @@
-import { Row, Col, Form, Button} from "react-bootstrap";
+import { Row, Col, Form, Button } from "react-bootstrap";
 import "./login.css";
 
 export default function Login() {
@@ -48,7 +48,7 @@ export default function Login() {
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                       <Form.Label>Kata Sandi</Form.Label>
-                      <Link to="/forgotPassword">Lupa Sandi?</Link>
+                      {/* <Link to="/forgotPassword">Lupa Sandi?</Link> */}
                       <Form.Control
                         type="password"
                         placeholder="Masukan Kata Sandi"

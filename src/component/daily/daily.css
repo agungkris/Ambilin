@@ -50,3 +50,17 @@
 .text{
     color: rgb(128, 128, 128);
 }
+
+.table{
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+}
+
+.table-card{
+    border-color: white;
+    box-shadow: 0 15px 30px hsl(0deg 0% 50% / 25%);
+}
+
+td{
+    color: black;
+}
