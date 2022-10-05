@@ -21,6 +21,7 @@ export default function Daily() {
                 <img
                   className="img-card"
                   src="../assets/icon-volume-setoran.svg"
+                  alt="volume setoran"
                 ></img>
                 <h3 style={{ fontSize: "24px" }}>
                   <b>Rp0</b>
@@ -38,6 +39,7 @@ export default function Daily() {
                 <img
                   className="img-card"
                   src="../assets/icon-biaya-penjemputan.svg"
+                  alt="biaya penjemputan"
                 ></img>
                 <h3 style={{ fontSize: "24px" }}>
                   <b>Rp0</b>
@@ -57,6 +59,7 @@ export default function Daily() {
                 <img
                   className="img-card"
                   src="../assets/icon-jumlah-transaksi.svg"
+                  alt="jumlah transaksi"
                 ></img>
                 <h3 style={{ fontSize: "24px" }}>
                   <b>0</b>
@@ -76,6 +79,7 @@ export default function Daily() {
                 <img
                   className="img-card"
                   src="../assets/icon-transaksi-selesai.svg"
+                  alt="transaksi selesai"
                 ></img>
                 <h3 style={{ fontSize: "24px" }}>
                   <b>0</b>

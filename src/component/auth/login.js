@@ -1,5 +1,4 @@
 import { Row, Col, Form, Button} from "react-bootstrap";
-import {BrowserRouter as Router, Link} from 'react-router-dom';
 import "./login.css";
 
 export default function Login() {
