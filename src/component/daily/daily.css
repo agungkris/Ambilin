@@ -1,0 +1,52 @@
+.body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* .Row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Col{
+    display: flex;
+}
+
+.Card{
+    display: flex;
+} */
+
+.background{
+    background: rgb(255, 131, 51);
+    color: white;
+    border-color: rgb(255, 131, 51);
+    box-shadow: 0 15px 30px hsl(0deg 0% 50% / 25%);
+}
+
+.background2{
+    border-color: white;
+    box-shadow: 0 15px 30px hsl(0deg 0% 50% / 25%);
+}
+
+@media only screen and (max-width: 810px) {
+    .background{
+        min-height: 150px;
+        background: rgb(255, 131, 51);
+        color: white;
+        border-color: rgb(255, 131, 51);
+        box-shadow: 0 15px 30px hsl(0deg 0% 50% / 25%);
+    }
+    
+    .background2{
+        min-height: 150px;
+        border-color: white;
+        box-shadow: 0 15px 30px hsl(0deg 0% 50% / 25%);
+    }
+}
+
+.img-card{
+    float: right;
+}
+
+.text{
+    color: rgb(128, 128, 128);
+}
